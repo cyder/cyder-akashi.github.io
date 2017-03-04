@@ -70,7 +70,7 @@ img {
 
 .left-content {
     float: left;
-    width: 40%;
+    width: 48%;
     margin-right: 4%;
     overflow:hidden;
     zoom:1;
@@ -78,7 +78,7 @@ img {
 
 .right-content {
     float: left;
-    width: 56%;
+    width: 48%;
     overflow:hidden;
     zoom:1;
 }
