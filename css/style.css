@@ -1,1 +1,399 @@
-/* ============================== *   Base * ============================== */* {	margin: 0;	padding: 0;}body {	width: 100%;	font-family: "Lato", "Lucida Grande", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Meiryo", "メイリオ", sans-serif;    font-weight: normal;    font-size: 16px;    color: #fff;}h1, h2, h3 {    font-weight: normal;}p {	font-size: 16px;	line-height: 28px;}a {    text-decoration: none;    color: #fff;}li {    list-style: none;}img {	max-width: 100%;}.wrap {    max-width: 996px;    margin: 0 auto;    padding: 64px 16px;    overflow: hidden;    zoom: 1;}.wrap h1 {	font-size: 48px;	margin-bottom: 24px;}.wrap h2 {	font-size: 40px;	margin-bottom: 16px;}.wrap h3 {	font-size: 24px;	margin-bottom: 8px;}.wrap p {	margin-bottom: 16px;}.wrap p:last-of-type {	margin-bottom: 0;}.left-content {	float: left;	width: 40%;	margin-right: 4%;	overflow:hidden;   	zoom:1;}.right-content {	float: left;	width: 56%;	overflow:hidden;	zoom:1;}.right-content h2 {	margin-top: 64px;}.right-content h2:first-of-type {	margin-top: 0;}.left-content h2 {	margin-top: 64px;}.left-content h2:first-of-type {	margin-top: 0;}@media screen and (max-width: 560px) {	.left-content {		width: 100%;		margin-right: 0;		margin-bottom: 24px;	}	.right-content {		width: 100%;	}}.contents-list {	width: 100%;	font-size: 0;}.contents-list li{	display:inline-block; 	vertical-align:top;	width: 32%;	margin-bottom: 80px;	margin-left: 2%;}.contents-list li:nth-of-type(3n+1) {	margin-left: 0;}.contents-list li h2 i {	margin-left: 8px;	color: #9197a3;}@media screen and (max-width: 560px) {	.contents-list li {		width: 100%;		margin-left: 0;	}	.contents-list li:nth-of-type(3n+1) {		margin-left: 0;	}}.contents-list li img {	border-radius: 8px;    -moz-border-radius: 8px;    -webkit-border-radius: 8px;    margin-bottom: 32px;    transition: box-shadow 0.2s ease-out;  	-webkit-transition: box-shadow 0.2s ease-out;  	-moz-transition: box-shadow 0.2s ease-out;  	-o-transition: box-shadow 0.2s ease-out;  	-ms-transition: box-shadow 0.2s ease-out;}.contents-list li h2 {	font-size: 18px;	margin-bottom: 8px;	color: #f0a30a;}.contents-list li h3 {	font-size: 14px;	margin-bottom: 16px;	color: #00aba9;}.contents-list li p {	font-size: 14px;	line-height: 24px;	color: #9197a3;}.contents-list li img:hover {	box-shadow:0px 4px 8px 0px rgba(0,0,0,0.40);}/* ============================== *   Header * ============================== */#global_nav { 	width: 100%; 	padding: 8px 16px; 	background-color: rgba(255, 255, 255, 0.7); 	position: fixed; 	border-bottom: 1px solid #ededed; 	z-index: 1; 	overflow: hidden; 	height: 40px;}#global_nav img {	height: 40px;} /* ============================== *   Content * ============================== */#head_img {	background-image: url(../img/daichi.png);	color: #fff;	position:relative;	height:720px;	width:100%;	overflow: hidden;	background-size: cover;	background-repeat: no-repeat;	background-position: 50% 100%;	transition: background-image 0.8s ease-in-out;	-webkit-transition: background-image 0.8s ease-in-out;	-moz-transition: background-image 0.8s ease-in-out;	-o-transition: background-image 0.8s ease-in-out;	-ms-transition: background-image 0.8s ease-in-out;	display: table;}@media screen and (max-width: 768px) {	#head_img {		height: 640px;		background-position: 40% 100%;	}}#head_img div {	display: table-cell;	vertical-align: middle;	text-align: center;}#head_img div img {	width: 80%;	max-width: 720px;	margin-top: -96px;	margin-bottom: 48px;}@media screen and (max-width: 768px) {	#head_img div img {		width: 85%;		margin-top: -80px;		margin-bottom: 32px;	}}#head_img div a {	display: block;	border: 1px solid rgba(255, 255, 255, 0.70);	padding: 8px 16px;	width: 180px;	margin: 0 auto;	border-radius: 40px;    -moz-border-radius: 40px;    -webkit-border-radius: 40px;    transition: 0.2s ease-in-out;    -webkit-transition: 0.2s ease-in-out;    -moz-transition: 0.2s ease-in-out;    -o-transition: 0.2s ease-in-out;    -ms-transition: 0.2s ease-in-out;}#head_img div a:hover {	color: #fff;	background-color: rgba(235, 235, 235, 0.4);}#aboutus {	background: #f39c12;}.aboutme_sns {	margin-top: 40px;}.aboutme_sns li {	float: left;	font-size: 40px;	margin-right: 24px;}#works {	background: #f6f7f8;	color: #000;}#aktiva {	background: #00aba9;}#aktiva_about {	background: #fff;	color: #111;}#aktiva_img {	background-image: url(../img/aktiva_img.jpg);	color: #fff;	position:relative;	height:480px;	width:100%;	overflow: hidden;	background-size: cover;	background-repeat: no-repeat;	background-position: 50% 0%;	transition: background-image 0.8s ease-in-out;	-webkit-transition: background-image 0.8s ease-in-out;	-moz-transition: background-image 0.8s ease-in-out;	-o-transition: background-image 0.8s ease-in-out;	-ms-transition: background-image 0.8s ease-in-out;	display: table;}@media screen and (max-width: 768px) {	#aktiva_img {		height: 360px;		background-position: 50% 0%;	}}#aktiva_video {	background: #00aba9;}/* ============================== *   Footer * ============================== */footer {	background-color: #e09303;	color: #fff;	text-align: center;}footer ul {	margin-bottom: 32px;}footer ul li {	display: inline;	font-size: 32px;	margin-right: 24px;}footer ul li:last-of-type {	margin-right: 0;}footer ul li i, .aboutme_sns li i{	color: #fff;	 transition: 0.2s ease-in-out;    -webkit-transition: 0.2s ease-in-out;    -moz-transition: 0.2s ease-in-out;    -o-transition: 0.2s ease-in-out;    -ms-transition: 0.2s ease-in-out;}footer ul li i:hover, .aboutme_sns li i:hover {	color: #bdc1c9;}footer div img {	width: 120px;	margin: 0 auto;	margin-bottom: 24px;}footer p {	text-align: center;}.clear { 	clear: left; }.youtube {  position: relative;  width: 100%;  padding-top: 56.25%;}.youtube iframe {  position: absolute;  top: 0;  right: 0;  width: 100% !important;  height: 100% !important;}.imgmax {	width: 100%;}
+/* ==============================
+ *   Base
+ * ============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: "Lato", "Lucida Grande", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Meiryo", "メイリオ", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    max-width: 996px;
+    margin: 0 auto;
+    padding: 64px 16px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.wrap h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.wrap h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.wrap h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.wrap p {
+    margin-bottom: 16px;
+}
+
+.wrap p:last-of-type {
+    margin-bottom: 0;
+}
+
+.left-content {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    overflow:hidden;
+    zoom:1;
+}
+
+.right-content {
+    float: left;
+    width: 48%;
+    overflow:hidden;
+    zoom:1;
+}
+
+.right-content h2 {
+    margin-top: 64px;
+}
+
+.right-content h2:first-of-type {
+    margin-top: 0;
+}
+
+
+.left-content h2 {
+    margin-top: 64px;
+}
+
+.left-content h2:first-of-type {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 560px) {
+    .left-content {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 24px;
+    }
+
+    .right-content {
+	width: 100%;
+    }
+}
+
+.contents-list {
+    width: 100%;
+    font-size: 0;
+}
+
+.contents-list li{
+    display:inline-block;
+    vertical-align:top;
+    width: 32%;
+    margin-bottom: 80px;
+    margin-left: 2%;
+}
+
+.contents-list li:nth-of-type(3n+1) {
+    margin-left: 0;
+}
+
+.contents-list li h2 i {
+    margin-left: 8px;
+    color: #9197a3;
+}
+
+@media screen and (max-width: 560px) {
+    .contents-list li {
+	width: 100%;
+	margin-left: 0;
+    }
+
+    .contents-list li:nth-of-type(3n+1) {
+	margin-left: 0;
+    }
+}
+
+.contents-list li img {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin-bottom: 32px;
+    transition: box-shadow 0.2s ease-out;
+    -webkit-transition: box-shadow 0.2s ease-out;
+    -moz-transition: box-shadow 0.2s ease-out;
+    -o-transition: box-shadow 0.2s ease-out;
+    -ms-transition: box-shadow 0.2s ease-out;
+}
+
+.contents-list li h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #f0a30a;
+}
+
+.contents-list li h3 {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #00aba9;
+}
+
+.contents-list li p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #9197a3;
+}
+
+.contents-list li img:hover {
+    box-shadow:0px 4px 8px 0px rgba(0,0,0,0.40);
+}
+
+/* ==============================
+ *   Header
+ * ============================== */
+
+#global_nav {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    border-bottom: 1px solid #ededed;
+    z-index: 1;
+    overflow: hidden;
+    height: 40px;
+}
+
+#global_nav img {
+    height: 40px;
+}
+
+/* ==============================
+ *   Content
+ * ============================== */
+
+#head_img {
+    background-image: url(../img/daichi.png);
+    color: #fff;
+    position:relative;
+    height:720px;
+    width:100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    transition: background-image 0.8s ease-in-out;
+    -webkit-transition: background-image 0.8s ease-in-out;
+    -moz-transition: background-image 0.8s ease-in-out;
+    -o-transition: background-image 0.8s ease-in-out;
+    -ms-transition: background-image 0.8s ease-in-out;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+    #head_img {
+	height: 640px;
+	background-position: 40% 100%;
+    }
+}
+
+#head_img div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#head_img div img {
+    width: 80%;
+    max-width: 720px;
+    margin-top: -96px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    #head_img div img {
+	width: 85%;
+	margin-top: -80px;
+	margin-bottom: 32px;
+    }
+}
+
+#head_img div a {
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    padding: 8px 16px;
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+}
+
+#head_img div a:hover {
+    color: #fff;
+    background-color: rgba(235, 235, 235, 0.4);
+}
+
+#aboutus {
+    background: #f39c12;
+}
+
+.aboutme_sns {
+    margin-top: 40px;
+}
+
+.aboutme_sns li {
+    float: left;
+    font-size: 40px;
+    margin-right: 24px;
+}
+
+#works {
+    background: #f6f7f8;
+    color: #000;
+}
+
+
+#aktiva {
+    background: #00aba9;
+}
+
+#aktiva_about {
+    background: #fff;
+    color: #111;
+}
+
+#aktiva_img {
+    background-image: url(../img/aktiva_img.jpg);
+    color: #fff;
+    position:relative;
+    height:480px;
+    width:100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    transition: background-image 0.8s ease-in-out;
+    -webkit-transition: background-image 0.8s ease-in-out;
+    -moz-transition: background-image 0.8s ease-in-out;
+    -o-transition: background-image 0.8s ease-in-out;
+    -ms-transition: background-image 0.8s ease-in-out;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+    #aktiva_img {
+	height: 360px;
+	background-position: 50% 0%;
+    }
+}
+
+
+#aktiva_video {
+    background: #00aba9;
+}
+
+/* ==============================
+ *   Footer
+ * ============================== */
+
+footer {
+    background-color: #e09303;
+    color: #fff;
+    text-align: center;
+}
+
+footer ul {
+    margin-bottom: 32px;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 32px;
+    margin-right: 24px;
+}
+
+footer ul li:last-of-type {
+    margin-right: 0;
+}
+
+footer ul li i, .aboutme_sns li i{
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+}
+
+footer ul li i:hover, .aboutme_sns li i:hover {
+    color: #bdc1c9;
+}
+
+footer div img {
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+.clear {
+    clear: left;
+}
+
+
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.imgmax {
+    width: 100%;
+}
