@@ -298,6 +298,37 @@ img {
     color: #111;
 }
 
+#aktiva_about section {
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+#aktiva_about header {
+    margin-bottom: 24px;
+}
+
+#aktiva_about header h1 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+#aktiva_about .content li,
+#aktiva_about .content p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#aktiva_about .content a {
+    color: #888;
+}
+
+#aktiva_about .content ul {
+    margin-top: 24px;
+}
+
 #aktiva_img {
     background-image: url(../img/aktiva_img.jpg);
     color: #fff;
